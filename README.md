@@ -63,7 +63,7 @@ Set environment variables:
 ```bash
 export ARM_CLIENT_ID="<app-id>"
 export ARM_CLIENT_SECRET="<password>"
-export ARM_SUBSCRIPTION_ID="b0a65222-af08-42ca-9e96-f990066d7573"
+export ARM_SUBSCRIPTION_ID="<subscription-id>"
 export ARM_TENANT_ID="<tenant-id>"
 ```
 
