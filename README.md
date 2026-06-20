@@ -67,6 +67,16 @@ export ARM_SUBSCRIPTION_ID="<subscription-id>"
 export ARM_TENANT_ID="<tenant-id>"
 ```
 
+## Access Your Endpoints
+
+Once you have the URL (e.g., `https://mysampleapp.abc123.eastus.azurecontainerapps.io`):
+
+| Endpoint | URL |
+|----------|-----|
+| Health Check | `https://<your-app-url>/` |
+| Liveness | `https://<your-app-url>/health` |
+| Weather API | `https://<your-app-url>/weatherforecast` |
+
 ## Customize
 
 Edit `terraform.tfvars` to change:
